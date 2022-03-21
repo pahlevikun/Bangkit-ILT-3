@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bangkit ILT-3 Sample</string>
+
+    <!-- Home -->
+    <string name="home_btn_title_retrofit">Networking Using Retrofit</string>
+    <string name="home_btn_title_architecture">Basic Architecture Component</string>
+    <string name="home_btn_title_preference">Preference Datastore</string>
+    <string name="home_btn_title_database">Database</string>
+
+    <!-- Preference -->
+    <string name="preference_btn_title_save_to_black">Save Black to Pref</string>
+    <string name="preference_btn_title_save_to_white">Save White to Pref</string>
+
+    <!-- Description -->
+    <string name="database_btn_title_add">Add Note</string>
+    <string name="database_btn_title_save">Save Note</string>
+    <string name="database_btn_title_update">Update Note</string>
+    <string name="database_btn_title_delete">Delete Note</string>
+    <string name="database_hint_title">Title</string>
+    <string name="database_hint_description">Description</string>
+
+    <!-- Retrofit -->
+    <string name="avatar">Avatar</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_scale">16dp</dimen>
+    <dimen name="tiny_scale">4dp</dimen>
+
+    <dimen name="avatar_size">60dp</dimen>
+</resources>

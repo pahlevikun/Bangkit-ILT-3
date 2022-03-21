@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text">
+        <item name="android:fontFamily">@font/gs_regular</item>
+    </style>
+
+    <style name="Text.Title" parent="Text">
+        <item name="android:fontFamily">@font/gs_medium</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:color">@color/text_title</item>
+    </style>
+
+    <style name="Text.Description" parent="Text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:color">@color/text_description</item>
+    </style>
+</resources>
