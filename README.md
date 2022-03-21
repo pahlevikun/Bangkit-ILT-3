@@ -1,6 +1,6 @@
 ## Bangkit ILT-3 Sample Project
 
-This is sample project based on the slide, most of the sample is based on [the basic sample here](https://github.com/dicodingacademy/demo-ilt-android-bangkit/tree/main/ILT2).
+This is sample project based on the slide, most of the sample is based on [the basic sample here](https://github.com/dicodingacademy/demo-ilt-android-bangkit/tree/main/ILT3).
 
 ## Troubleshooting
 
