@@ -40,10 +40,18 @@ class DatabaseDetailsActivity : BaseChildActivity() {
         }
 
         view.btnAddNote.setOnClickListener {
-            viewModel.saveNote(NotesEntity(
-                title = view.etTitle.text.toString(),
-                description = view.etDescription.text.toString(),
-            ))
+            val newItem = if (notesEntity != null) {
+                notesEntity!!.copy(
+                    title = view.etTitle.text.toString(),
+                    description = view.etDescription.text.toString(),
+                )
+            } else {
+                NotesEntity(
+                    title = view.etTitle.text.toString(),
+                    description = view.etDescription.text.toString(),
+                )
+            }
+            viewModel.saveNote(newItem)
             finish()
         }
     }
